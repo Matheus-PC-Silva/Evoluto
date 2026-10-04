@@ -1,0 +1,98 @@
+/* Evoluto: tokens, componentes e apresentação por horário (ver spec §7) */
+:root {
+  --grafite: #1E2A33;
+  --ceu: #F3F7FA;
+  --nevoa: #DCE4EA;
+  --ambar: #E8A33D;
+  --ambar-escuro: #D99229;
+  --azul: #2D5BA8;
+  --verde: #2F7D62;
+  --texto-suave: #4A5A66;
+  --fonte-titulo: "Schibsted Grotesk", system-ui, sans-serif;
+  --fonte-texto: Literata, Georgia, serif;
+
+  --bs-body-bg: var(--ceu);
+  --bs-body-color: var(--grafite);
+  --bs-body-font-family: var(--fonte-texto);
+  --bs-link-color-rgb: 45, 91, 168;
+  --bs-link-hover-color-rgb: 30, 42, 51;
+}
+
+body { line-height: 1.65; }
+h1, h2, h3, .navbar, .btn, .badge, label, .form-control, .form-select,
+.accordion-button, .status, .legenda, .tagline { font-family: var(--fonte-titulo); }
+h1 { font-size: clamp(1.9rem, 4.5vw, 3rem); font-weight: 700; letter-spacing: -.02em; line-height: 1.1; }
+h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; letter-spacing: -.01em; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+.texto { max-width: 68ch; }
+section { scroll-margin-top: 96px; }
+:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+.pular { z-index: 1100; top: .5rem; left: .5rem; padding: .5rem 1rem; background: #fff; }
+
+/* Navegação e marca */
+.navbar { background: var(--grafite); }
+.navbar .nav-link { color: #C9D4DD; }
+.navbar .nav-link:hover, .navbar .nav-link:focus-visible { color: #fff; }
+.marca { display: inline-flex; align-items: center; gap: .5rem; color: #fff; }
+.marca-simbolo { width: 34px; height: 34px; color: #fff; }
+.marca-nome { font-family: var(--fonte-titulo); font-weight: 700; font-size: 1.6rem; letter-spacing: -.03em; line-height: 1; }
+.aviso-afiliado { background: var(--nevoa); font-size: .875rem; padding: .3rem 0; }
+
+/* Botões */
+.btn { border-radius: 6px; }
+.btn-ambar {
+  --bs-btn-bg: var(--ambar); --bs-btn-border-color: var(--ambar); --bs-btn-color: var(--grafite);
+  --bs-btn-hover-bg: var(--ambar-escuro); --bs-btn-hover-border-color: var(--ambar-escuro); --bs-btn-hover-color: var(--grafite);
+  --bs-btn-active-bg: var(--ambar-escuro); --bs-btn-active-color: var(--grafite); --bs-btn-font-weight: 600;
+}
+.btn-azul {
+  --bs-btn-color: var(--azul); --bs-btn-border-color: var(--azul);
+  --bs-btn-hover-bg: var(--azul); --bs-btn-hover-color: #fff; --bs-btn-hover-border-color: var(--azul);
+  --bs-btn-active-bg: var(--azul); --bs-btn-active-color: #fff;
+}
+
+/* Apresentação: o fundo acompanha o horário de quem visita (sem JS = "dia") */
+.hero { padding: clamp(3rem, 8vw, 6rem) 0; color: var(--grafite); }
+.hero[data-periodo="manha"] { background: linear-gradient(180deg, #F7D9B5 0%, var(--ceu) 100%); }
+.hero[data-periodo="dia"]   { background: linear-gradient(180deg, #E3F0FA 0%, var(--ceu) 100%); }
+.hero[data-periodo="tarde"] { background: linear-gradient(180deg, #8A4B2E 0%, #3B4A6B 100%); color: #fff; }
+.hero[data-periodo="noite"] { background: linear-gradient(180deg, var(--grafite) 0%, #2D3E5C 100%); color: var(--ceu); }
+.tagline { font-size: 1.25rem; font-weight: 700; color: var(--azul); }
+.hero[data-periodo="tarde"] .tagline, .hero[data-periodo="noite"] .tagline { color: var(--ambar); }
+.simbolo-hero { width: min(300px, 60vw); height: auto; }
+.simbolo-intersecao { animation: acender 1.6s ease-out .3s 1 both; }
+@keyframes acender { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .simbolo-intersecao { animation: none; } }
+
+/* Catálogo */
+.form-control, .form-select { border-radius: 6px; border-color: #B9C6D1; }
+.legenda { font-size: .9rem; color: var(--texto-suave); }
+.status { font-weight: 600; min-height: 1.6em; }
+.card { border: 1px solid var(--nevoa); border-radius: 12px; overflow: hidden; }
+.card:hover { border-color: #9FB3C4; }
+.card.primeiro { border: 2px solid var(--verde); }
+.card-midia { position: relative; }
+.card-img-top { aspect-ratio: 16 / 9; object-fit: cover; height: auto; background: var(--nevoa); }
+.legenda-ilustrativa {
+  position: absolute; right: .5rem; bottom: .4rem; padding: 0 .4rem; border-radius: 4px;
+  background: rgba(30, 42, 51, .75); color: #fff; font: 600 .7rem var(--fonte-titulo);
+}
+.badge-eixo { background: #E8EEF3; color: var(--grafite); font-weight: 600; }
+.badge-primeiro { background: var(--verde); }
+.card-text { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.faixa { font-family: var(--fonte-titulo); font-weight: 700; color: var(--texto-suave); letter-spacing: .05em; }
+.esqueleto-midia { display: block; aspect-ratio: 16 / 9; }
+
+/* Sobre e rodapé */
+.sobre { background: #fff; border-top: 1px solid var(--nevoa); }
+.rodape { background: var(--grafite); color: #C9D4DD; font-size: .9rem; }
+
+/* Modal */
+.modal-content { border-radius: 16px; border: 0; }
+.detalhe-meta { margin-top: .35rem; }
+.selo-pesquisa { background: #EAF1FB; color: var(--azul); font-weight: 600; white-space: normal; }
+.selo-link { background: var(--nevoa); color: var(--grafite); font-weight: 600; }
+.veredito { font-size: 1.15rem; }
+.lista-pros li::marker { content: "+  "; color: var(--verde); font-weight: 700; }
+.lista-contras li::marker { content: "–  "; color: #B5552B; font-weight: 700; }
