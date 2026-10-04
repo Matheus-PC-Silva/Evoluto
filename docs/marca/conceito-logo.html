@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evoluto: conceito de logo (rascunho)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@600;700&family=Literata:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --grafite: #1E2A33; --ceu: #F3F7FA; --nevoa: #DCE4EA;
+    --ambar: #E8A33D; --azul: #2D5BA8; --verde: #2F7D62;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ceu); color: var(--grafite); font-family: Literata, Georgia, serif; line-height: 1.6; }
+  main { max-width: 1100px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1, h2, h3 { font-family: "Schibsted Grotesk", system-ui, sans-serif; line-height: 1.2; }
+  h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); margin-bottom: .25rem; }
+  .nota { max-width: 70ch; }
+  .grade { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin: 24px 0 40px; }
+  figure { margin: 0; background: #fff; border: 1px solid var(--nevoa); border-radius: 12px; padding: 20px; }
+  figure.escuro { background: var(--grafite); color: var(--ceu); border-color: var(--grafite); }
+  figcaption { font-size: .95rem; margin-top: 12px; }
+  figcaption strong { font-family: "Schibsted Grotesk", sans-serif; }
+  svg.simbolo { width: 100%; max-width: 280px; display: block; margin: 0 auto; }
+  .tamanhos { display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
+  .tamanhos div { text-align: center; font-size: .85rem; }
+  .lockup { display: flex; align-items: center; gap: 14px; }
+  .lockup svg { width: 56px; height: 56px; }
+  .marca-texto { font-family: "Schibsted Grotesk", sans-serif; font-weight: 700; font-size: 2.6rem; letter-spacing: -.02em; }
+  .escuro .marca-texto { color: var(--ceu); }
+
+  /* Circuito e corpo */
+  .trilha  { fill: none; stroke: var(--azul); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .corpo   { fill: none; stroke: var(--grafite); stroke-width: 4.5; stroke-linecap: round; stroke-linejoin: round; }
+  .escuro .corpo { stroke: var(--ceu); }
+  .escuro .trilha { stroke: #6E95D6; }
+  .pad     { fill: var(--azul); }
+  .escuro .pad { fill: #6E95D6; }
+  .cabeca  { fill: var(--grafite); }
+  .escuro .cabeca { fill: var(--ceu); }
+
+  /* Pulso de luz: percorre a trilha (pathLength = 100) */
+  .pulso {
+    fill: none; stroke: var(--ambar); stroke-width: 3.5; stroke-linecap: round;
+    stroke-dasharray: 7 93; filter: url(#brilho);
+    animation: circular 4.5s linear infinite;
+  }
+  .pulso.lento { animation-duration: 7s; }
+  .pulso.atraso { animation-delay: -2.2s; }
+  @keyframes circular { to { stroke-dashoffset: -100; } }
+  @media (prefers-reduced-motion: reduce) {
+    .pulso { animation: none; stroke-dasharray: none; opacity: .0; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Evoluto: conceito de logo</h1>
+  <p class="nota">Rascunho para discussão, desenhado direto em SVG. Não é a arte final. A releitura do Homem Vitruviano (domínio público, c. 1490) usa um corpo neutro em forma de pictograma e trilhas de circuito com um pulso de luz âmbar. Com "reduzir movimento" ativado no sistema, o pulso some.</p>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <filter id="brilho" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.2" result="b"/>
+        <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+  </svg>
+
+  <h2>1. Comparação de conceitos</h2>
+  <div class="grade">
+
+    <!-- VARIANTE A: ideia original, o corpo é o circuito -->
+    <figure>
+      <svg class="simbolo" viewBox="0 0 200 200" role="img" aria-labelledby="tA">
+        <title id="tA">Variante A: figura vitruviana feita de trilhas de circuito</title>
+        <circle class="trilha" cx="100" cy="96" r="80" stroke-opacity=".45"/>
+        <path class="trilha" stroke-opacity=".45" d="M44 52H156L162 58V170L156 176H44L38 170V58Z"/>
+        <!-- corpo como trilhas, com dobras de 45° -->
+        <circle class="trilha" cx="100" cy="63" r="10"/>
+        <path class="trilha" d="M100 73V124"/>
+        <path class="trilha" d="M100 86H74L68 92H40M100 86H126L132 92H160" />
+        <path class="trilha" d="M100 86L64 70L31 57M100 86L136 70L169 57"/>
+        <path class="trilha" d="M100 124L94 150V176M100 124L106 150V176"/>
+        <path class="trilha" d="M100 124L78 146L60 165M100 124L122 146L140 165"/>
+        <g class="pad">
+          <circle cx="40" cy="92" r="3.6"/><circle cx="160" cy="92" r="3.6"/>
+          <circle cx="31" cy="57" r="3.6"/><circle cx="169" cy="57" r="3.6"/>
+          <circle cx="94" cy="176" r="3.6"/><circle cx="106" cy="176" r="3.6"/>
+          <circle cx="60" cy="165" r="3.6"/><circle cx="140" cy="165" r="3.6"/>
+          <circle cx="100" cy="86" r="3"/><circle cx="100" cy="124" r="3"/>
+        </g>
+        <path class="pulso" pathLength="100" d="M100 86L64 70L31 57M31 57"/>
+        <path class="pulso atraso" pathLength="100" d="M100 124L106 150V176"/>
+        <path class="pulso lento" pathLength="100" d="M100 16A80 80 0 1 1 99.9 16"/>
+      </svg>
+      <figcaption><strong>A — O corpo é o circuito</strong> (sua ideia original). Comunica bem "tecnologia", mas pode ser lido como "o humano virou máquina", que é o oposto do manifesto ("nem escravo dela").</figcaption>
+    </figure>
+
+    <!-- VARIANTE B: recomendada, corpo humano + circuito como ambiente -->
+    <figure>
+      <svg class="simbolo" viewBox="0 0 200 200" role="img" aria-labelledby="tB">
+        <title id="tB">Variante B: figura humana neutra dentro de círculo e quadrado feitos de trilhas de circuito</title>
+        <!-- ambiente = circuito -->
+        <circle class="trilha" cx="100" cy="96" r="80"/>
+        <path class="trilha" d="M44 52H156L162 58V170L156 176H44L38 170V58Z"/>
+        <path class="trilha" d="M38 120H28L22 126M162 120H172L178 126M100 52V40L106 34M100 176V184"/>
+        <g class="pad">
+          <circle cx="22" cy="126" r="3.4"/><circle cx="178" cy="126" r="3.4"/>
+          <circle cx="106" cy="34" r="3.4"/><circle cx="100" cy="184" r="3.4"/>
+          <!-- pontos de contato: onde o humano toca a tecnologia -->
+          <circle cx="38" cy="88" r="4"/><circle cx="162" cy="88" r="4"/>
+          <circle cx="31" cy="57" r="4"/><circle cx="169" cy="57" r="4"/>
+          <circle cx="60" cy="165" r="4"/><circle cx="140" cy="165" r="4"/>
+        </g>
+        <!-- corpo = humano, traço orgânico, sem anatomia -->
+        <circle class="cabeca" cx="100" cy="64" r="10"/>
+        <path class="corpo" d="M100 80V124"/>
+        <path class="corpo" d="M42 88H158"/>
+        <path class="corpo" d="M100 88L35 59M100 88L165 59"/>
+        <path class="corpo" d="M100 124L91 174M100 124L109 174"/>
+        <path class="corpo" d="M100 124L63 162M100 124L137 162"/>
+        <!-- luz circulando no ambiente, convergindo para o humano -->
+        <path class="pulso lento" pathLength="100" d="M100 16A80 80 0 1 1 99.9 16"/>
+        <path class="pulso atraso" pathLength="100" d="M44 52H156L162 58V170L156 176H44L38 170V58Z"/>
+      </svg>
+      <figcaption><strong>B — O humano no centro, a tecnologia ao redor</strong> (recomendada). O corpo continua humano, e o circuito é o ambiente que ele usa. A luz percorre o ambiente e chega aos pontos onde mãos e pés o tocam. É o manifesto desenhado: "a tecnologia trabalha a seu favor".</figcaption>
+    </figure>
+
+    <figure class="escuro">
+      <svg class="simbolo" viewBox="0 0 200 200" role="img" aria-labelledby="tB2">
+        <title id="tB2">Variante B sobre fundo escuro</title>
+        <circle class="trilha" cx="100" cy="96" r="80"/>
+        <path class="trilha" d="M44 52H156L162 58V170L156 176H44L38 170V58Z"/>
+        <path class="trilha" d="M38 120H28L22 126M162 120H172L178 126M100 52V40L106 34M100 176V184"/>
+        <g class="pad">
+          <circle cx="22" cy="126" r="3.4"/><circle cx="178" cy="126" r="3.4"/>
+          <circle cx="106" cy="34" r="3.4"/><circle cx="100" cy="184" r="3.4"/>
+          <circle cx="38" cy="88" r="4"/><circle cx="162" cy="88" r="4"/>
+          <circle cx="31" cy="57" r="4"/><circle cx="169" cy="57" r="4"/>
+          <circle cx="60" cy="165" r="4"/><circle cx="140" cy="165" r="4"/>
+        </g>
+        <circle class="cabeca" cx="100" cy="64" r="10"/>
+        <path class="corpo" d="M100 80V124M42 88H158M100 88L35 59M100 88L165 59M100 124L91 174M100 124L109 174M100 124L63 162M100 124L137 162"/>
+        <path class="pulso lento" pathLength="100" d="M100 16A80 80 0 1 1 99.9 16"/>
+        <path class="pulso atraso" pathLength="100" d="M44 52H156L162 58V170L156 176H44L38 170V58Z"/>
+      </svg>
+      <figcaption><strong>B no escuro</strong>: a versão para a apresentação noturna e o rodapé. O âmbar ganha força no fundo escuro.</figcaption>
+    </figure>
+  </div>
+
+  <h2>2. Teste de redução (o mesmo símbolo em tamanhos pequenos)</h2>
+  <p class="nota">Um logo precisa funcionar como favicon (16 px) e como avatar em redes sociais. A ilustração completa perde legibilidade abaixo de cerca de 48 px. Por isso o sistema da marca precisa de uma <strong>versão simplificada</strong>.</p>
+  <figure>
+    <div class="tamanhos">
+      <div>
+        <svg width="96" height="96" viewBox="0 0 200 200" aria-hidden="true">
+          <circle class="trilha" cx="100" cy="96" r="80"/>
+          <path class="trilha" d="M44 52H156L162 58V170L156 176H44L38 170V58Z"/>
+          <circle class="cabeca" cx="100" cy="64" r="10"/>
+          <path class="corpo" d="M100 80V124M42 88H158M100 88L35 59M100 88L165 59M100 124L91 174M100 124L109 174M100 124L63 162M100 124L137 162"/>
+        </svg><br>completo · 96 px
+      </div>
+      <div>
+        <svg width="32" height="32" viewBox="0 0 200 200" aria-hidden="true">
+          <circle class="trilha" cx="100" cy="96" r="80"/>
+          <path class="trilha" d="M44 52H156L162 58V170L156 176H44L38 170V58Z"/>
+          <circle class="cabeca" cx="100" cy="64" r="10"/>
+          <path class="corpo" d="M100 80V124M42 88H158M100 88L35 59M100 88L165 59M100 124L91 174M100 124L109 174M100 124L63 162M100 124L137 162"/>
+        </svg><br>completo · 32 px<br>(já embola)
+      </div>
+      <div>
+        <!-- MARCA SIMPLIFICADA: círculo + quadrado chanfrado + figura em X + cabeça + 1 pulso -->
+        <svg width="96" height="96" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="27" fill="none" stroke="#2D5BA8" stroke-width="4"/>
+          <path d="M14 13H50L53 16V51L50 54H14L11 51V16Z" fill="none" stroke="#2D5BA8" stroke-width="3" stroke-linejoin="round" opacity=".55"/>
+          <circle cx="32" cy="20" r="5" fill="#1E2A33"/>
+          <path d="M32 27V39M17 25L32 31L47 25M32 39L22 51M32 39L42 51" fill="none" stroke="#1E2A33" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="32" cy="5" r="3.6" fill="#E8A33D"/>
+        </svg><br>simplificado · 96 px
+      </div>
+      <div>
+        <svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="27" fill="none" stroke="#2D5BA8" stroke-width="4"/>
+          <circle cx="32" cy="20" r="5" fill="#1E2A33"/>
+          <path d="M32 27V39M17 25L32 31L47 25M32 39L22 51M32 39L42 51" fill="none" stroke="#1E2A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="32" cy="5" r="4" fill="#E8A33D"/>
+        </svg><br>simplificado · 32 px
+      </div>
+      <div>
+        <svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="27" fill="none" stroke="#2D5BA8" stroke-width="6"/>
+          <circle cx="32" cy="20" r="6" fill="#1E2A33"/>
+          <path d="M32 27V40M17 25L32 31L47 25M32 40L22 52M32 40L42 52" fill="none" stroke="#1E2A33" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="32" cy="5" r="5" fill="#E8A33D"/>
+        </svg><br>favicon · 16 px
+      </div>
+    </div>
+    <figcaption>O ponto âmbar no topo do círculo é o "sol nascendo" do conceito do ritmo do dia, e na versão completa é o pulso de luz em repouso.</figcaption>
+  </figure>
+
+  <h2>3. Assinatura (símbolo + nome)</h2>
+  <div class="grade">
+    <figure>
+      <div class="lockup">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="27" fill="none" stroke="#2D5BA8" stroke-width="4"/>
+          <circle cx="32" cy="20" r="5" fill="#1E2A33"/>
+          <path d="M32 27V39M17 25L32 31L47 25M32 39L22 51M32 39L42 51" fill="none" stroke="#1E2A33" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="32" cy="5" r="3.6" fill="#E8A33D"/>
+        </svg>
+        <span class="marca-texto">evoluto</span>
+      </div>
+      <figcaption>Horizontal: navbar e cabeçalhos.</figcaption>
+    </figure>
+    <figure class="escuro">
+      <div class="lockup">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="27" fill="none" stroke="#6E95D6" stroke-width="4"/>
+          <circle cx="32" cy="20" r="5" fill="#F3F7FA"/>
+          <path d="M32 27V39M17 25L32 31L47 25M32 39L22 51M32 39L42 51" fill="none" stroke="#F3F7FA" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="32" cy="5" r="3.6" fill="#E8A33D"/>
+        </svg>
+        <span class="marca-texto">evoluto</span>
+      </div>
+      <figcaption>Fundo escuro: rodapé e apresentação noturna.</figcaption>
+    </figure>
+  </div>
+</main>
+</body>
+</html>
