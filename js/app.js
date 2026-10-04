@@ -13,7 +13,7 @@ const RECUPERAVEIS = ['rede', 'tempo', 'servidor'];
 
 const api = criarApi({ simulador: criarSimulador(location.search) }); // ACAD-04
 const estado = {
-  itens: [], eixos: [], texto: '', eixo: '',
+  itens: [], eixos: [], texto: '', eixo: '', catalogoCarregado: false,
   controleDetalhe: null, botaoOrigem: null, modalCriouHistorico: false, modalAberto: false, modalAbrindo: false,
 };
 
@@ -42,6 +42,7 @@ async function carregarCatalogo() {
     const dados = await api.carregarCatalogo();
     estado.itens = dados.itens;
     estado.eixos = dados.eixos;
+    estado.catalogoCarregado = true;
     campoEixo.replaceChildren(...criarOpcoesEixos(estado.eixos));
 
     const daUrl = lerEstadoDaUrl(location.search, location.hash, estado.eixos);
@@ -90,7 +91,9 @@ function aplicarFiltro() {
   estado.eixo = campoEixo.value;
   const busca = montarBusca(location.search, estado);
   history.replaceState(history.state, '', `${location.pathname}${busca}${location.hash}`);
-  renderizarCatalogo();
+  // Enquanto o catálogo carrega ou está em erro, o filtro só fica guardado (na URL) e é aplicado
+  // quando os dados chegarem; assim o esqueleto e o aviso de erro não são trocados por um falso "vazio".
+  if (estado.catalogoCarregado) renderizarCatalogo();
 }
 
 function limparBusca() {

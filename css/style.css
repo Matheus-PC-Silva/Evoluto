@@ -26,7 +26,13 @@ h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; letter-spacing: -.01
 h3 { font-size: 1.15rem; font-weight: 600; }
 .texto { max-width: 68ch; }
 section { scroll-margin-top: 96px; }
-:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+/* Foco visível: precisa vencer as regras do Bootstrap que zeram o outline (especificidade 0,2,0) */
+:focus-visible,
+.btn:focus-visible, .form-control:focus-visible, .form-select:focus-visible,
+.btn-close:focus-visible, .accordion-button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+/* Em fundo grafite (navbar e rodapé) o azul não contrasta: usa âmbar */
+.navbar :focus-visible, .navbar .nav-link:focus-visible, .navbar .navbar-toggler:focus-visible,
+.rodape :focus-visible, .pular:focus-visible { outline: 3px solid var(--ambar); outline-offset: 2px; }
 
 .pular { z-index: 1100; top: .5rem; left: .5rem; padding: .5rem 1rem; background: #fff; }
 
