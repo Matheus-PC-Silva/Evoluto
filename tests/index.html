@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Testes: Evoluto</title>
+  <!-- ACAD-11: testes executáveis pelo professor sem instalar nada -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mocha@10.7.3/mocha.css"
+        integrity="sha384-jZ2RCYAvI2kvHAe2cnaMATvQZRTkY8tVfgGA19oHJXeHgqo0vrl1HyPp0qn//ntj" crossorigin="anonymous">
+</head>
+<body>
+  <h1>Testes automatizados do Evoluto</h1>
+  <p>Requer o servidor local (<code>python -m http.server 8000</code>). Verde = passou.</p>
+  <div id="mocha"></div>
+  <div id="area-dom" hidden></div>
+  <script src="https://cdn.jsdelivr.net/npm/mocha@10.7.3/mocha.js"
+          integrity="sha384-/VN8rpycQqBMCmUxbGhQCidoDumfohYmUaVaBSZdSgV5RCzVXR61v7C1UlcLyx32" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chai@4.5.0/chai.js"
+          integrity="sha384-UGsk7wGXPmT8Rkjs3dQqHbtUCl3FrC28XkDrUzNcoxApimrcDelIzifDRfFQp9en" crossorigin="anonymous"></script>
+  <script>mocha.setup({ ui: 'bdd', timeout: 10000 });</script>
+  <script type="module">
+    await import('./fumaca.test.js');
+    mocha.run();
+  </script>
+</body>
+</html>
