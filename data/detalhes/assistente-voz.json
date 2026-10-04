@@ -1,0 +1,52 @@
+{
+  "id": "assistente-voz",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Vale como central da casa e para lembretes do dia a dia. Se privacidade é prioridade, use o botão de microfone desligado.",
+  "beneficio": "Rotinas como \"bom dia\" e \"boa noite\" acendem luzes, ligam aparelhos e leem a agenda com uma frase.",
+  "paraQuem": [
+    "Quem já tem ou vai ter vários dispositivos conectados",
+    "Quem gosta de comandos por voz"
+  ],
+  "naoParaQuem": [
+    "Quem não se sente confortável com microfone sempre ouvindo a palavra de ativação"
+  ],
+  "pros": [
+    "Integra muitas marcas",
+    "Rotinas fáceis de criar",
+    "Também serve como caixa de som"
+  ],
+  "contras": [
+    "Questões de privacidade com microfone",
+    "Alguns recursos dependem de internet"
+  ],
+  "comoEscolher": [
+    "Escolha o ecossistema (Alexa ou Google) que seus outros aparelhos suportam",
+    "Prefira modelo com hub Zigbee ou Matter se for expandir",
+    "Modelos com tela ajudam em receitas e câmeras"
+  ],
+  "exemplos": [
+    "Amazon Echo (Alexa)",
+    "Google Nest"
+  ],
+  "evidencias": [
+    {
+      "texto": "Em 2024, havia cerca de 17 milhões de dispositivos de casa inteligente conectados à Alexa no Brasil.",
+      "fonte": "Eletrolar News",
+      "url": "https://eletrolarnews.com.br/mercado-de-casas-inteligentes-deve-movimentar-us-66-bilhoes-no-brasil-ate-2033/"
+    }
+  ],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=echo+alexa",
+      "afiliado": false
+    },
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/assistente-virtual-alexa",
+      "afiliado": false
+    }
+  ]
+}

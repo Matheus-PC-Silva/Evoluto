@@ -1,0 +1,48 @@
+{
+  "id": "estacao-energia",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Um seguro contra apagões e uma ótima companheira de viagem. Caro para quem raramente fica sem energia.",
+  "beneficio": "Internet, celulares e pequenos aparelhos continuam funcionando quando a energia cai.",
+  "paraQuem": [
+    "Regiões com quedas de energia frequentes",
+    "Quem trabalha de casa",
+    "Quem acampa ou viaja de carro"
+  ],
+  "naoParaQuem": [
+    "Quem quer alimentar chuveiro ou ar-condicionado"
+  ],
+  "pros": [
+    "Silenciosa, sem combustível",
+    "Várias saídas (tomada, USB, carro)",
+    "Pode ser recarregada com painel solar"
+  ],
+  "contras": [
+    "Preço alto",
+    "Pesada nos modelos grandes"
+  ],
+  "comoEscolher": [
+    "Some a potência dos aparelhos que quer manter ligados",
+    "Prefira bateria LiFePO4, que dura mais ciclos",
+    "Confira a potência máxima da saída"
+  ],
+  "exemplos": [
+    "EcoFlow",
+    "Bluetti",
+    "Jackery"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=estacao+de+energia+portatil",
+      "afiliado": false
+    },
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/estacao-energia-portatil",
+      "afiliado": false
+    }
+  ]
+}

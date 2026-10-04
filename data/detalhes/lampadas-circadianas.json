@@ -1,0 +1,54 @@
+{
+  "id": "lampadas-circadianas",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Um dos upgrades mais baratos para a rotina de sono de quem fica em telas e luz branca até tarde.",
+  "beneficio": "A luz esquenta sozinha no fim do dia e esfria de manhã, acompanhando o relógio do corpo sem você precisar lembrar.",
+  "paraQuem": [
+    "Quem usa luz branca forte à noite",
+    "Quem quer acordar com luz em vez de alarme"
+  ],
+  "naoParaQuem": [
+    "Quem já tem iluminação quente e dimerizável",
+    "Quem não tem Wi-Fi estável no quarto"
+  ],
+  "pros": [
+    "Instala na rosca comum, sem eletricista",
+    "Rotinas por horário no aplicativo",
+    "Funciona com Alexa e Google"
+  ],
+  "contras": [
+    "Depende de Wi-Fi e do aplicativo da marca",
+    "Qualidade dos apps varia muito entre marcas"
+  ],
+  "comoEscolher": [
+    "Confira se a temperatura de cor vai de 2700 K ou menos (quente) a 6500 K (fria)",
+    "Prefira marcas com rotina por horário sem precisar de hub",
+    "Veja se o soquete é E27, o mais comum no Brasil"
+  ],
+  "exemplos": [
+    "Philips Hue",
+    "Positivo Casa Inteligente",
+    "Intelbras"
+  ],
+  "evidencias": [
+    {
+      "texto": "Luz ambiente antes de dormir atrasou o início da melatonina em 99% dos participantes e encurtou sua duração em cerca de 90 minutos.",
+      "fonte": "Gooley et al., The Journal of Clinical Endocrinology & Metabolism, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21193540/"
+    }
+  ],
+  "avisoSaude": "Este produto ajuda a criar hábitos melhores. Ele não trata insônia nem outros distúrbios do sono. Se o problema persistir, procure um profissional de saúde.",
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/lampada-inteligente-wifi",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=lampada+inteligente+wifi",
+      "afiliado": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ar-condicionado-inverter",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Se você usa ar-condicionado todo dia, o modelo inverter é o que mais pesa a favor da conta de luz no longo prazo.",
+  "beneficio": "A temperatura fica estável, sem o liga-desliga do compressor, e o quarto fica mais silencioso.",
+  "paraQuem": [
+    "Quem usa o ar várias horas por dia",
+    "Regiões quentes"
+  ],
+  "naoParaQuem": [
+    "Quem usa o ar poucos dias no ano"
+  ],
+  "pros": [
+    "Consumo menor em uso contínuo",
+    "Mais silencioso",
+    "Temperatura estável"
+  ],
+  "contras": [
+    "Preço maior",
+    "Exige instalação profissional"
+  ],
+  "comoEscolher": [
+    "Calcule os BTUs pela área e insolação do cômodo",
+    "Compare o selo Procel e o consumo em kWh",
+    "Instalação por profissional credenciado mantém a garantia"
+  ],
+  "exemplos": [
+    "LG Dual Inverter",
+    "Samsung WindFree",
+    "Gree"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/ar-condicionado-inverter",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=ar+condicionado+inverter",
+      "afiliado": false
+    }
+  ]
+}

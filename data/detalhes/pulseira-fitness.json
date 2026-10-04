@@ -1,0 +1,48 @@
+{
+  "id": "pulseira-fitness",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Boa porta de entrada para conhecer seus próprios números de movimento e sono, gastando pouco.",
+  "beneficio": "Transforma passos e horas de sono em tendências visíveis, o que ajuda a perceber e mudar hábitos aos poucos.",
+  "paraQuem": [
+    "Quem quer começar a se mexer mais",
+    "Quem quer testar um vestível antes de investir num relógio"
+  ],
+  "naoParaQuem": [
+    "Quem treina sério e precisa de GPS e métricas avançadas",
+    "Quem quer recursos de ECG"
+  ],
+  "pros": [
+    "Bateria dura dias",
+    "Leve e discreta para dormir",
+    "Preço baixo"
+  ],
+  "contras": [
+    "Medidas de calorias e de fases do sono são estimativas",
+    "Apps de algumas marcas pedem muitas permissões"
+  ],
+  "comoEscolher": [
+    "Confira a duração real da bateria em avaliações de usuários",
+    "Veja se o app funciona bem no seu celular",
+    "Prefira tela AMOLED se for usar ao sol"
+  ],
+  "exemplos": [
+    "Xiaomi Smart Band",
+    "Amazfit Band",
+    "Samsung Galaxy Fit"
+  ],
+  "evidencias": [],
+  "avisoSaude": "Este aparelho ajuda a monitorar e acompanhar tendências. Ele não substitui consulta nem exame médico. Na dúvida, procure um profissional de saúde.",
+  "lojas": [
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=pulseira+fitness",
+      "afiliado": false
+    },
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/pulseira-inteligente",
+      "afiliado": false
+    }
+  ]
+}

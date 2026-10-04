@@ -1,0 +1,54 @@
+{
+  "id": "fechadura-digital",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Conveniência real para quem recebe diarista, entregas ou visitas, desde que seja compatível com a sua porta.",
+  "beneficio": "Ninguém mais fica do lado de fora por esquecer a chave, e você libera acesso a quem precisa sem fazer cópias.",
+  "paraQuem": [
+    "Quem recebe diarista ou cuidadores",
+    "Famílias com crianças que esquecem a chave"
+  ],
+  "naoParaQuem": [
+    "Portas com espessura ou modelo incompatíveis",
+    "Quem não quer trocar pilhas"
+  ],
+  "pros": [
+    "Biometria, senha e cartão",
+    "Senhas temporárias",
+    "Histórico de acessos em modelos conectados"
+  ],
+  "contras": [
+    "Instalação exige atenção à porta",
+    "Pilhas precisam de troca"
+  ],
+  "comoEscolher": [
+    "Meça a espessura da porta antes de comprar",
+    "Prefira modelo com chave mecânica de emergência",
+    "Confira assistência técnica na sua cidade"
+  ],
+  "exemplos": [
+    "Intelbras",
+    "Yale",
+    "Papaiz"
+  ],
+  "evidencias": [
+    {
+      "texto": "Pesquisa QuintoAndar/Datafolha: 45% dos entrevistados desejam fechadura eletrônica.",
+      "fonte": "Cimento Itambé, sobre pesquisa QuintoAndar/Datafolha",
+      "url": "https://www.cimentoitambe.com.br/casas-inteligentes-se-popularizam-no-brasil/"
+    }
+  ],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/fechadura-digital-biometria",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=fechadura+digital+biometria",
+      "afiliado": false
+    }
+  ]
+}

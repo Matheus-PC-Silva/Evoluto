@@ -138,6 +138,8 @@ Patinete/bike elétrica, dashcam, rastreador veicular, carregador portátil. Tic
 
 ## Proposta de catálogo inicial do MVP (24 itens, 3 por eixo)
 
+> **Atualização 04/10/2026:** no MVP, o purificador de ar deu lugar ao fone com cancelamento de ruído (Trabalho), e o SSD de backup deu lugar ao gerenciador de senhas (Privacidade), o verdadeiro primeiro passo do eixo. Lista final em `data/itens.json`.
+
 O requisito mínimo é 8. Com 24 itens, o filtro por eixo fica interessante e a busca retorna resultados variados.
 
 | id | Eixo | Produto (título no card) | Rótulo de decisão |

@@ -1,0 +1,60 @@
+{
+  "id": "smartwatch-ecg",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Vale o investimento se você quer acompanhar o coração de perto, entendendo que ele alerta e não substitui o médico.",
+  "beneficio": "O relógio fica de olho no ritmo do coração o dia todo e avisa quando algo parece irregular, um sinal para procurar orientação médica.",
+  "paraQuem": [
+    "Quem tem mais de 50 anos ou histórico cardíaco na família",
+    "Quem quer também GPS, pagamentos e notificações no pulso"
+  ],
+  "naoParaQuem": [
+    "Quem já tem diagnóstico de fibrilação atrial e acompanhamento específico",
+    "Quem não quer carregar o relógio a cada um ou dois dias"
+  ],
+  "pros": [
+    "Alerta de ritmo irregular com boa precisão em estudos",
+    "ECG de uma derivação em 30 segundos",
+    "Detecção de queda em vários modelos"
+  ],
+  "contras": [
+    "Caro",
+    "O ECG do relógio só identifica fibrilação atrial, não outras condições",
+    "Bateria curta nos modelos com mais recursos"
+  ],
+  "comoEscolher": [
+    "Confira se o ECG está liberado no Brasil para o modelo",
+    "Verifique a compatibilidade com o seu celular (iPhone ou Android)",
+    "Avalie a duração da bateria no seu uso"
+  ],
+  "exemplos": [
+    "Apple Watch",
+    "Samsung Galaxy Watch",
+    "Garmin Venu"
+  ],
+  "evidencias": [
+    {
+      "texto": "Meta-análise de estudos com smartwatches encontrou sensibilidade de cerca de 95% e especificidade de cerca de 97% para identificar fibrilação atrial.",
+      "fonte": "JACC: Advances, 2025",
+      "url": "https://www.jacc.org/doi/10.1016/j.jacadv.2025.102133"
+    },
+    {
+      "texto": "O app de ECG distingue apenas fibrilação atrial de ritmo sinusal e não reconhece outras condições, como infarto.",
+      "fonte": "Suporte Apple",
+      "url": "https://support.apple.com/pt-br/120278"
+    }
+  ],
+  "avisoSaude": "Este aparelho ajuda a monitorar e acompanhar tendências. Ele não substitui consulta nem exame médico. Na dúvida, procure um profissional de saúde.",
+  "lojas": [
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=smartwatch+ecg",
+      "afiliado": false
+    },
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/smartwatch-ecg",
+      "afiliado": false
+    }
+  ]
+}

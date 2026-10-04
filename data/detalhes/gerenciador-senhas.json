@@ -1,0 +1,42 @@
+{
+  "id": "gerenciador-senhas",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "O primeiro passo de privacidade que todo mundo deveria dar, e existem versões gratuitas confiáveis.",
+  "beneficio": "Cada site ganha uma senha forte e única, e um vazamento em um lugar não abre todas as suas contas.",
+  "paraQuem": [
+    "Quem repete senhas",
+    "Quem quer compartilhar senhas com a família com segurança"
+  ],
+  "naoParaQuem": [
+    "Ninguém: vale para todo mundo que usa internet"
+  ],
+  "pros": [
+    "Gera e guarda senhas fortes",
+    "Preenche automaticamente",
+    "Versão gratuita em algumas opções"
+  ],
+  "contras": [
+    "Exige uma senha mestra forte que você não pode esquecer",
+    "Leva alguns dias para migrar as contas"
+  ],
+  "comoEscolher": [
+    "Prefira opções com auditoria de segurança independente",
+    "Ative a verificação em duas etapas",
+    "Confira se funciona no celular e no computador"
+  ],
+  "exemplos": [
+    "Bitwarden",
+    "1Password",
+    "Proton Pass"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Bitwarden",
+      "url": "https://bitwarden.com/pt-br/",
+      "afiliado": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "chave-seguranca-fido2",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "A proteção mais forte para contas importantes, como e-mail e banco. Compre duas: uma de uso e uma reserva.",
+  "beneficio": "Mesmo que alguém descubra sua senha, não consegue entrar sem a chave física.",
+  "paraQuem": [
+    "Quem quer proteger e-mail, redes sociais e trabalho",
+    "Quem já sofreu tentativa de golpe"
+  ],
+  "naoParaQuem": [
+    "Quem usa serviços que ainda não aceitam chaves de segurança"
+  ],
+  "pros": [
+    "Resistente a phishing",
+    "Não precisa de bateria",
+    "Funciona no computador e no celular"
+  ],
+  "contras": [
+    "Precisa de uma chave reserva",
+    "Nem todo serviço aceita"
+  ],
+  "comoEscolher": [
+    "Escolha o conector certo: USB-C, USB-A e/ou NFC",
+    "Compre duas chaves",
+    "Cadastre primeiro no e-mail principal"
+  ],
+  "exemplos": [
+    "YubiKey",
+    "Google Titan",
+    "Feitian"
+  ],
+  "evidencias": [
+    {
+      "texto": "No estudo do Google, chaves de segurança bloquearam 100% dos ataques automatizados, de phishing em massa e direcionados analisados.",
+      "fonte": "Google Security Blog, 2019",
+      "url": "https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html"
+    }
+  ],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=yubikey",
+      "afiliado": false
+    }
+  ]
+}

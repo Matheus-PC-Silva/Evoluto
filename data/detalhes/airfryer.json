@@ -1,0 +1,47 @@
+{
+  "id": "airfryer",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "O eletrodoméstico que mais facilita comer em casa com pouco tempo. Não precisa ser conectada para valer a pena.",
+  "beneficio": "Refeições prontas com menos óleo, menos louça e sem vigiar o fogão.",
+  "paraQuem": [
+    "Quem cozinha para 1 a 4 pessoas",
+    "Quem quer reduzir delivery"
+  ],
+  "naoParaQuem": [
+    "Famílias grandes que cozinham grandes quantidades de uma vez"
+  ],
+  "pros": [
+    "Rápida e fácil de limpar",
+    "Usa pouco ou nenhum óleo",
+    "Versátil"
+  ],
+  "contras": [
+    "Capacidade limitada",
+    "Ocupa espaço na bancada"
+  ],
+  "comoEscolher": [
+    "Escolha a capacidade: cerca de 4 litros para 2 pessoas",
+    "Cesto antiaderente removível facilita a limpeza",
+    "Confira a voltagem"
+  ],
+  "exemplos": [
+    "Philips Walita",
+    "Mondial",
+    "Electrolux"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/airfryer",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=airfryer",
+      "afiliado": false
+    }
+  ]
+}

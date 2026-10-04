@@ -1,0 +1,53 @@
+{
+  "id": "camera-wifi-ia",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "O item de segurança mais desejado nas casas brasileiras, e com detecção de pessoas ele deixa de ser um gerador de alarmes falsos.",
+  "beneficio": "Você vê quem chegou, de qualquer lugar, e só recebe aviso quando importa.",
+  "paraQuem": [
+    "Quem quer ver a casa ou os pets quando está fora",
+    "Quem quer gravação de eventos"
+  ],
+  "naoParaQuem": [
+    "Quem não tem Wi-Fi forte no ponto da câmera"
+  ],
+  "pros": [
+    "Barata",
+    "Alerta de pessoa em vez de qualquer movimento",
+    "Gravação local em cartão em vários modelos"
+  ],
+  "contras": [
+    "Alguns recursos exigem assinatura de nuvem",
+    "Câmera mal configurada é risco de privacidade"
+  ],
+  "comoEscolher": [
+    "Prefira gravação local em cartão ou opção sem mensalidade",
+    "Troque a senha padrão e ative a verificação em duas etapas",
+    "Para área externa, exija proteção IP65 ou superior"
+  ],
+  "exemplos": [
+    "Intelbras iM",
+    "TP-Link Tapo",
+    "Xiaomi"
+  ],
+  "evidencias": [
+    {
+      "texto": "Pesquisa QuintoAndar/Datafolha: câmera de segurança é o item de casa inteligente mais desejado (59%).",
+      "fonte": "Cimento Itambé, sobre pesquisa QuintoAndar/Datafolha",
+      "url": "https://www.cimentoitambe.com.br/casas-inteligentes-se-popularizam-no-brasil/"
+    }
+  ],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/camera-wifi-deteccao-pessoas",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=camera+wifi+deteccao+de+pessoas",
+      "afiliado": false
+    }
+  ]
+}

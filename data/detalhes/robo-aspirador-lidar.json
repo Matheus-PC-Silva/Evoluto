@@ -1,0 +1,50 @@
+{
+  "id": "robo-aspirador-lidar",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Para quem odeia varrer, é o eletrodoméstico que mais devolve tempo. O LiDAR faz a diferença entre um robô útil e um robô perdido.",
+  "beneficio": "A limpeza diária acontece enquanto você trabalha ou dorme, e o fim de semana fica para outras coisas.",
+  "paraQuem": [
+    "Quem tem pets que soltam pelo",
+    "Casas com pisos lisos e poucos obstáculos"
+  ],
+  "naoParaQuem": [
+    "Casas com muitos tapetes altos e fios pelo chão",
+    "Quem precisa de limpeza pesada (o mop é de manutenção)"
+  ],
+  "pros": [
+    "Mapeamento a laser com zonas proibidas",
+    "Agenda por cômodo",
+    "Aspira e passa pano"
+  ],
+  "contras": [
+    "Caro",
+    "Exige esvaziar o reservatório e limpar escovas",
+    "Não sobe escadas"
+  ],
+  "comoEscolher": [
+    "Prefira LiDAR a giroscópio",
+    "Base autoesvaziante vale para quem tem pets",
+    "Confira assistência técnica e peças no Brasil"
+  ],
+  "exemplos": [
+    "Roborock",
+    "Xiaomi Robot Vacuum",
+    "WAP Robot",
+    "Electrolux"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/robo-aspirador-lidar",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=robo+aspirador+lidar",
+      "afiliado": false
+    }
+  ]
+}

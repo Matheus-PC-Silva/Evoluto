@@ -1,0 +1,47 @@
+{
+  "id": "mesa-regulavel",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Investimento alto que vale para quem passa o dia trabalhando em casa e quer variar a postura.",
+  "beneficio": "Alternar entre sentado e em pé ao longo do dia fica a um botão de distância.",
+  "paraQuem": [
+    "Quem trabalha em home office em tempo integral"
+  ],
+  "naoParaQuem": [
+    "Quem usa a mesa poucas horas por semana",
+    "Quem tem pouco espaço"
+  ],
+  "pros": [
+    "Ajuste rápido com memória de alturas",
+    "Estrutura firme nos bons modelos",
+    "Durável"
+  ],
+  "contras": [
+    "Cara",
+    "Ficar em pé o dia todo também cansa: o ganho está em alternar"
+  ],
+  "comoEscolher": [
+    "Prefira motor duplo para mais estabilidade",
+    "Confira a faixa de altura para a sua estatura",
+    "Verifique a capacidade de carga"
+  ],
+  "exemplos": [
+    "Flexform",
+    "DT3",
+    "marcas nacionais de mobiliário corporativo"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/mesa-regulavel-eletrica",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=mesa+regulavel+eletrica",
+      "afiliado": false
+    }
+  ]
+}

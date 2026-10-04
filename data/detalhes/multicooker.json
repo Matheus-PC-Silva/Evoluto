@@ -1,0 +1,47 @@
+{
+  "id": "multicooker",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Para quem prepara marmitas, substitui a panela de pressão com mais segurança e sem ficar de olho.",
+  "beneficio": "O feijão e o arroz da semana ficam prontos enquanto você faz outra coisa.",
+  "paraQuem": [
+    "Quem faz marmitas",
+    "Quem tem medo da panela de pressão comum"
+  ],
+  "naoParaQuem": [
+    "Quem cozinha pouco em casa"
+  ],
+  "pros": [
+    "Programas prontos",
+    "Mais segura que a pressão no fogão",
+    "Mantém aquecido"
+  ],
+  "contras": [
+    "Ocupa espaço",
+    "Curva de aprendizado nas primeiras receitas"
+  ],
+  "comoEscolher": [
+    "Capacidade de 5 a 6 litros atende a maioria das famílias",
+    "Prefira panela interna antiaderente removível",
+    "Confira a voltagem"
+  ],
+  "exemplos": [
+    "Electrolux",
+    "Mondial",
+    "Philco"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/panela-eletrica-pressao",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=panela+eletrica+de+pressao",
+      "afiliado": false
+    }
+  ]
+}

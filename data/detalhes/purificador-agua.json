@@ -1,0 +1,47 @@
+{
+  "id": "purificador-agua",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Mais prático e econômico a longo prazo que o galão, desde que tenha selo INMETRO e classe A de retenção.",
+  "beneficio": "Água filtrada e gelada sempre à mão, sem carregar peso nem depender de entrega.",
+  "paraQuem": [
+    "Quem compra galão toda semana",
+    "Quem quer água gelada sem ocupar a geladeira"
+  ],
+  "naoParaQuem": [
+    "Quem não pode furar a parede ou mexer na tubulação"
+  ],
+  "pros": [
+    "Sem galões",
+    "Água gelada",
+    "Refil dura meses"
+  ],
+  "contras": [
+    "Refil precisa ser trocado no prazo",
+    "Instalação depende de ponto de água"
+  ],
+  "comoEscolher": [
+    "Exija selo INMETRO e classe A de retenção de partículas",
+    "Confira preço e duração do refil",
+    "Veja se precisa de ponto de energia"
+  ],
+  "exemplos": [
+    "Electrolux",
+    "IBBL",
+    "Latina"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/purificador-agua-inmetro",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=purificador+de+agua",
+      "afiliado": false
+    }
+  ]
+}

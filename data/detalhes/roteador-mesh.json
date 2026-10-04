@@ -1,0 +1,47 @@
+{
+  "id": "roteador-mesh",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "A base invisível da casa conectada: se o Wi-Fi falha, câmeras, fechaduras e chamadas falham junto.",
+  "beneficio": "Sinal forte em todos os cômodos, sem trocar de rede ao andar pela casa.",
+  "paraQuem": [
+    "Casas com mais de um andar ou paredes grossas",
+    "Quem trabalha de casa"
+  ],
+  "naoParaQuem": [
+    "Apartamentos pequenos onde o roteador atual já cobre tudo"
+  ],
+  "pros": [
+    "Uma rede só para a casa toda",
+    "Configuração por app",
+    "Wi-Fi 6 aguenta muitos aparelhos"
+  ],
+  "contras": [
+    "Mais caro que um repetidor",
+    "Precisa de pontos de energia nos cômodos"
+  ],
+  "comoEscolher": [
+    "Prefira Wi-Fi 6 ou superior",
+    "Kit com 2 ou 3 unidades conforme a área",
+    "Atualizações automáticas de segurança são essenciais"
+  ],
+  "exemplos": [
+    "TP-Link Deco",
+    "Mercusys Halo",
+    "Intelbras Twibi"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=roteador+mesh+wifi+6",
+      "afiliado": false
+    },
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/roteador-mesh-wifi-6",
+      "afiliado": false
+    }
+  ]
+}

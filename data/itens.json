@@ -1,0 +1,232 @@
+{
+  "versao": 1,
+  "atualizadoEm": "2026-10-04",
+  "eixos": [
+    { "id": "saude", "nome": "Saúde", "titulo": "Saúde evoluta", "icone": "heart-pulse" },
+    { "id": "sono", "nome": "Sono", "titulo": "Sono evoluto", "icone": "moon-stars" },
+    { "id": "casa", "nome": "Casa", "titulo": "Casa evoluta", "icone": "house" },
+    { "id": "seguranca", "nome": "Segurança", "titulo": "Segurança evoluta", "icone": "shield-check" },
+    { "id": "privacidade", "nome": "Privacidade", "titulo": "Privacidade evoluta", "icone": "fingerprint" },
+    { "id": "cozinha", "nome": "Cozinha", "titulo": "Cozinha evoluta", "icone": "cup-hot" },
+    { "id": "energia", "nome": "Energia", "titulo": "Energia evoluta", "icone": "lightning-charge" },
+    { "id": "trabalho", "nome": "Trabalho", "titulo": "Trabalho evoluto", "icone": "laptop" }
+  ],
+  "itens": [
+    {
+      "id": "monitor-pressao-braco",
+      "titulo": "Monitor de pressão de braço validado",
+      "categoria": "saude",
+      "resumo": "Medir em casa, no mesmo horário, gera um histórico que ajuda muito na conversa com o médico.",
+      "imagem": { "src": "img/produtos/monitor-pressao-braco.webp", "alt": "Pessoa medindo a pressão com um aparelho de braço" },
+      "primeiroPasso": true,
+      "faixaPreco": 1
+    },
+    {
+      "id": "pulseira-fitness",
+      "titulo": "Pulseira fitness de entrada",
+      "categoria": "saude",
+      "resumo": "Passos, sono e frequência cardíaca no pulso por pouco dinheiro, com bateria que dura dias.",
+      "imagem": { "src": "img/produtos/pulseira-fitness.webp", "alt": "Pulseira fitness no pulso de uma pessoa" },
+      "primeiroPasso": false,
+      "faixaPreco": 1
+    },
+    {
+      "id": "smartwatch-ecg",
+      "titulo": "Smartwatch com ECG e alerta de ritmo",
+      "categoria": "saude",
+      "resumo": "Avisa quando o ritmo do coração parece irregular e grava um eletrocardiograma de uma derivação.",
+      "imagem": { "src": "img/produtos/smartwatch-ecg.webp", "alt": "Smartwatch no pulso mostrando dados de frequência cardíaca" },
+      "primeiroPasso": false,
+      "faixaPreco": 3
+    },
+    {
+      "id": "lampadas-circadianas",
+      "titulo": "Kit de lâmpadas circadianas",
+      "categoria": "sono",
+      "resumo": "Luz quente à noite, fria de manhã: o relógio do corpo agradece.",
+      "imagem": { "src": "img/produtos/lampadas-circadianas.webp", "alt": "Quarto iluminado por luz âmbar suave ao anoitecer" },
+      "primeiroPasso": true,
+      "faixaPreco": 1
+    },
+    {
+      "id": "controle-ir-universal",
+      "titulo": "Controle infravermelho universal Wi-Fi",
+      "categoria": "sono",
+      "resumo": "Liga o ar-condicionado antes de você deitar e desliga de madrugada, sem levantar da cama.",
+      "imagem": { "src": "img/produtos/controle-ir-universal.webp", "alt": "Ar-condicionado na parede de um quarto" },
+      "primeiroPasso": false,
+      "faixaPreco": 1
+    },
+    {
+      "id": "anel-inteligente",
+      "titulo": "Anel inteligente de sono",
+      "categoria": "sono",
+      "resumo": "Acompanha sono, temperatura e recuperação sem tela no pulso e sem luz acendendo à noite.",
+      "imagem": { "src": "img/produtos/anel-inteligente.webp", "alt": "Anel inteligente na mão de uma pessoa" },
+      "primeiroPasso": false,
+      "faixaPreco": 3
+    },
+    {
+      "id": "interruptor-inteligente",
+      "titulo": "Interruptor inteligente Wi-Fi",
+      "categoria": "casa",
+      "resumo": "Troca o interruptor comum e passa a controlar a luz pelo celular, por voz ou por horário.",
+      "imagem": { "src": "img/produtos/interruptor-inteligente.webp", "alt": "Mão tocando um interruptor de parede" },
+      "primeiroPasso": true,
+      "faixaPreco": 1
+    },
+    {
+      "id": "assistente-voz",
+      "titulo": "Assistente de voz com hub de casa",
+      "categoria": "casa",
+      "resumo": "A central da casa conectada: rotinas, lembretes e aparelhos comandados pela voz.",
+      "imagem": { "src": "img/produtos/assistente-voz.webp", "alt": "Caixa de som inteligente sobre um móvel" },
+      "primeiroPasso": false,
+      "faixaPreco": 2
+    },
+    {
+      "id": "robo-aspirador-lidar",
+      "titulo": "Robô aspirador com LiDAR e mop",
+      "categoria": "casa",
+      "resumo": "Chão limpo sem ocupar o seu fim de semana. O laser mapeia a casa e evita o robô perdido.",
+      "imagem": { "src": "img/produtos/robo-aspirador-lidar.webp", "alt": "Robô aspirador limpando o piso de uma sala" },
+      "primeiroPasso": false,
+      "faixaPreco": 3
+    },
+    {
+      "id": "camera-wifi-ia",
+      "titulo": "Câmera Wi-Fi com detecção de pessoas",
+      "categoria": "seguranca",
+      "resumo": "Avisa no celular quando aparece uma pessoa, e não a cada folha que se mexe.",
+      "imagem": { "src": "img/produtos/camera-wifi-ia.webp", "alt": "Câmera de segurança instalada na parede" },
+      "primeiroPasso": true,
+      "faixaPreco": 1
+    },
+    {
+      "id": "sensores-porta-janela",
+      "titulo": "Kit de sensores de porta e janela",
+      "categoria": "seguranca",
+      "resumo": "Um alarme básico sem mensalidade: avisa no celular quando uma porta ou janela abre.",
+      "imagem": { "src": "img/produtos/sensores-porta-janela.webp", "alt": "Porta de entrada de uma casa" },
+      "primeiroPasso": false,
+      "faixaPreco": 1
+    },
+    {
+      "id": "fechadura-digital",
+      "titulo": "Fechadura digital com biometria",
+      "categoria": "seguranca",
+      "resumo": "Fim das chaves: entra com o dedo ou com senha, e libera acesso temporário para quem precisar.",
+      "imagem": { "src": "img/produtos/fechadura-digital.webp", "alt": "Fechadura digital com teclado em uma porta" },
+      "primeiroPasso": false,
+      "faixaPreco": 2
+    },
+    {
+      "id": "gerenciador-senhas",
+      "titulo": "Gerenciador de senhas",
+      "categoria": "privacidade",
+      "resumo": "Uma senha forte e diferente para cada site, sem precisar decorar nenhuma delas.",
+      "imagem": { "src": "img/produtos/gerenciador-senhas.webp", "alt": "Tela de login com campo de senha em um notebook" },
+      "primeiroPasso": true,
+      "faixaPreco": 1
+    },
+    {
+      "id": "chave-seguranca-fido2",
+      "titulo": "Chave de segurança FIDO2",
+      "categoria": "privacidade",
+      "resumo": "Uma chave física que protege suas contas mesmo quando a senha vaza.",
+      "imagem": { "src": "img/produtos/chave-seguranca-fido2.webp", "alt": "Chave de segurança USB conectada a um notebook" },
+      "primeiroPasso": false,
+      "faixaPreco": 2
+    },
+    {
+      "id": "roteador-mesh",
+      "titulo": "Roteador mesh Wi-Fi 6",
+      "categoria": "privacidade",
+      "resumo": "Wi-Fi forte em todos os cômodos, para câmeras, fechaduras e videochamadas não caírem.",
+      "imagem": { "src": "img/produtos/roteador-mesh.webp", "alt": "Roteador Wi-Fi sobre uma estante" },
+      "primeiroPasso": false,
+      "faixaPreco": 2
+    },
+    {
+      "id": "airfryer",
+      "titulo": "Airfryer",
+      "categoria": "cozinha",
+      "resumo": "Comida crocante com pouco óleo e pouca louça, pronta enquanto você faz outra coisa.",
+      "imagem": { "src": "img/produtos/airfryer.webp", "alt": "Airfryer em uma bancada de cozinha" },
+      "primeiroPasso": true,
+      "faixaPreco": 2
+    },
+    {
+      "id": "multicooker",
+      "titulo": "Panela elétrica multicooker",
+      "categoria": "cozinha",
+      "resumo": "Feijão, arroz e marmitas da semana programados, sem vigiar o fogão.",
+      "imagem": { "src": "img/produtos/multicooker.webp", "alt": "Panela com comida caseira cozinhando" },
+      "primeiroPasso": false,
+      "faixaPreco": 2
+    },
+    {
+      "id": "purificador-agua",
+      "titulo": "Purificador de água classe A",
+      "categoria": "cozinha",
+      "resumo": "Água gelada e filtrada na torneira, sem carregar galão. Exija o selo INMETRO.",
+      "imagem": { "src": "img/produtos/purificador-agua.webp", "alt": "Copo sendo enchido com água" },
+      "primeiroPasso": false,
+      "faixaPreco": 2
+    },
+    {
+      "id": "tomada-inteligente",
+      "titulo": "Tomada inteligente com medição",
+      "categoria": "energia",
+      "resumo": "Descubra quanto cada aparelho gasta, inclusive desligado, e corte o desperdício.",
+      "imagem": { "src": "img/produtos/tomada-inteligente.webp", "alt": "Plugue conectado a uma tomada" },
+      "primeiroPasso": true,
+      "faixaPreco": 1
+    },
+    {
+      "id": "ar-condicionado-inverter",
+      "titulo": "Ar-condicionado inverter",
+      "categoria": "energia",
+      "resumo": "O maior vilão da conta de luz, domado: mantém a temperatura sem liga-desliga constante.",
+      "imagem": { "src": "img/produtos/ar-condicionado-inverter.webp", "alt": "Aparelho de ar-condicionado split na parede" },
+      "primeiroPasso": false,
+      "faixaPreco": 3
+    },
+    {
+      "id": "estacao-energia",
+      "titulo": "Estação de energia portátil",
+      "categoria": "energia",
+      "resumo": "Uma bateria grande que mantém internet, geladeira pequena e celulares funcionando no apagão.",
+      "imagem": { "src": "img/produtos/estacao-energia.webp", "alt": "Bateria portátil carregando aparelhos ao ar livre" },
+      "primeiroPasso": false,
+      "faixaPreco": 3
+    },
+    {
+      "id": "suporte-monitor",
+      "titulo": "Suporte articulado de monitor",
+      "categoria": "trabalho",
+      "resumo": "Tela na altura dos olhos e mesa livre: o ajuste mais barato da ergonomia.",
+      "imagem": { "src": "img/produtos/suporte-monitor.webp", "alt": "Mesa de trabalho com monitor elevado" },
+      "primeiroPasso": true,
+      "faixaPreco": 1
+    },
+    {
+      "id": "fone-cancelamento-ruido",
+      "titulo": "Fone com cancelamento de ruído",
+      "categoria": "trabalho",
+      "resumo": "Silêncio sob demanda para focar em casa barulhenta, no ônibus ou no avião.",
+      "imagem": { "src": "img/produtos/fone-cancelamento-ruido.webp", "alt": "Fone de ouvido sobre uma mesa" },
+      "primeiroPasso": false,
+      "faixaPreco": 2
+    },
+    {
+      "id": "mesa-regulavel",
+      "titulo": "Mesa com regulagem elétrica de altura",
+      "categoria": "trabalho",
+      "resumo": "Alterne entre sentado e em pé ao longo do dia apertando um botão.",
+      "imagem": { "src": "img/produtos/mesa-regulavel.webp", "alt": "Mesa de trabalho regulada na altura para uso em pé" },
+      "primeiroPasso": false,
+      "faixaPreco": 3
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "interruptor-inteligente",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "O primeiro passo mais natural da casa conectada: troca o que já existe e todo mundo da casa continua usando do mesmo jeito.",
+  "beneficio": "As luzes obedecem a horários e à voz, e ninguém mais precisa levantar para apagar a luz esquecida.",
+  "paraQuem": [
+    "Quem quer automatizar a iluminação sem trocar lâmpadas",
+    "Quem mora em casa ou apartamento próprio"
+  ],
+  "naoParaQuem": [
+    "Quem mora de aluguel e não pode mexer na parede",
+    "Quem não tem fio neutro na caixa (para alguns modelos)"
+  ],
+  "pros": [
+    "Funciona também como interruptor comum",
+    "Rotinas por horário e por voz",
+    "Preço baixo"
+  ],
+  "contras": [
+    "Instalação mexe na parte elétrica",
+    "Alguns modelos exigem fio neutro"
+  ],
+  "comoEscolher": [
+    "Confira se o modelo exige fio neutro",
+    "Escolha o padrão de caixa 4x2 ou 4x4 da sua parede",
+    "Na dúvida, chame um eletricista"
+  ],
+  "exemplos": [
+    "Positivo Casa Inteligente",
+    "Sonoff",
+    "Intelbras"
+  ],
+  "evidencias": [
+    {
+      "texto": "O interruptor inteligente lidera as buscas de casa inteligente no Brasil, com quase 1,5 milhão de pesquisas em 12 meses.",
+      "fonte": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/buscas-por-casa-inteligente-crescem-22-no-brasil-diz-levantamento/"
+    }
+  ],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/interruptor-inteligente-wifi",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=interruptor+inteligente+wifi",
+      "afiliado": false
+    }
+  ]
+}

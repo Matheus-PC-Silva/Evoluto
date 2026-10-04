@@ -1,0 +1,47 @@
+{
+  "id": "controle-ir-universal",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Por pouco dinheiro, deixa o ar-condicionado e a TV que você já tem controláveis pelo celular e por voz.",
+  "beneficio": "O quarto já está na temperatura certa quando você deita, e o ar desliga sozinho de madrugada.",
+  "paraQuem": [
+    "Quem tem ar-condicionado ou TV com controle remoto infravermelho",
+    "Quem quer automação sem trocar aparelhos"
+  ],
+  "naoParaQuem": [
+    "Quem tem aparelhos que só funcionam por Bluetooth ou app próprio"
+  ],
+  "pros": [
+    "Aproveita aparelhos antigos",
+    "Rotinas por horário e por voz",
+    "Barato"
+  ],
+  "contras": [
+    "Precisa ficar com visão direta para o aparelho",
+    "Não sabe se o aparelho realmente ligou"
+  ],
+  "comoEscolher": [
+    "Confira se a base de controles inclui a marca do seu ar",
+    "Veja se integra com o assistente de voz que você usa",
+    "Prefira modelos com sensor de temperatura"
+  ],
+  "exemplos": [
+    "Broadlink",
+    "Positivo Casa Inteligente",
+    "Tuya"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/controle-universal-wifi-infravermelho",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=controle+universal+wifi+infravermelho",
+      "afiliado": false
+    }
+  ]
+}

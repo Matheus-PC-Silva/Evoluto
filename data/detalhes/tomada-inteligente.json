@@ -1,0 +1,53 @@
+{
+  "id": "tomada-inteligente",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "O primeiro passo de energia: barata, instala em segundos e mostra para onde a conta está indo.",
+  "beneficio": "Você enxerga o consumo de cada aparelho e corta o gasto em standby de verdade, desligando a tomada.",
+  "paraQuem": [
+    "Quem quer entender a conta de luz",
+    "Quem tem TV, videogame e decodificador sempre em standby"
+  ],
+  "naoParaQuem": [
+    "Aparelhos de alta potência, como chuveiro e ar-condicionado grande"
+  ],
+  "pros": [
+    "Medição de consumo em tempo real",
+    "Agenda de liga e desliga",
+    "Sem instalação"
+  ],
+  "contras": [
+    "A economia por tomada é pequena",
+    "Precisa de Wi-Fi"
+  ],
+  "comoEscolher": [
+    "Confira se tem medição de energia (nem todas têm)",
+    "Respeite a corrente máxima (10 A ou 16 A)",
+    "Prefira padrão brasileiro de 3 pinos"
+  ],
+  "exemplos": [
+    "Positivo Casa Inteligente",
+    "TP-Link Tapo",
+    "Sonoff"
+  ],
+  "evidencias": [
+    {
+      "texto": "Aparelhos em standby podem representar até cerca de 10% do consumo de uma residência.",
+      "fonte": "TechTudo, 2026",
+      "url": "https://www.techtudo.com.br/guia/2026/07/tomada-inteligente-economiza-energia-veja-quando-ela-vale-a-pena-edinfoeletro.ghtml"
+    }
+  ],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/tomada-inteligente-medidor-consumo",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=tomada+inteligente+medidor+consumo",
+      "afiliado": false
+    }
+  ]
+}

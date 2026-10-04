@@ -1,0 +1,50 @@
+{
+  "id": "anel-inteligente",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "O jeito mais discreto de acompanhar o sono, para quem não quer nada no pulso à noite. É caro, então vale para quem vai usar os dados.",
+  "beneficio": "Mostra tendências de sono, temperatura e recuperação ao longo das semanas, ajudando a ligar hábitos do dia a noites melhores.",
+  "paraQuem": [
+    "Quem não gosta de dormir de relógio",
+    "Quem treina e quer acompanhar recuperação"
+  ],
+  "naoParaQuem": [
+    "Quem busca o menor custo",
+    "Quem não quer pagar assinatura (alguns modelos cobram)"
+  ],
+  "pros": [
+    "Confortável para dormir",
+    "Bateria de vários dias",
+    "Boa concordância com exames de sono em estudos"
+  ],
+  "contras": [
+    "Preço alto",
+    "Algumas marcas cobram assinatura mensal",
+    "Tamanho precisa ser medido com kit antes"
+  ],
+  "comoEscolher": [
+    "Use o kit de medição antes de comprar",
+    "Confira se há assinatura e quanto custa",
+    "Verifique compatibilidade com seu celular"
+  ],
+  "exemplos": [
+    "Oura Ring",
+    "Samsung Galaxy Ring",
+    "Ultrahuman Ring"
+  ],
+  "evidencias": [
+    {
+      "texto": "Em estudo com 96 participantes, o Oura Gen3 teve 91,7% de acurácia para distinguir sono e vigília em comparação com polissonografia.",
+      "fonte": "Sleep Medicine, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38382312/"
+    }
+  ],
+  "avisoSaude": "Este produto ajuda a criar hábitos melhores. Ele não trata insônia nem outros distúrbios do sono. Se o problema persistir, procure um profissional de saúde.",
+  "lojas": [
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=anel+inteligente",
+      "afiliado": false
+    }
+  ]
+}

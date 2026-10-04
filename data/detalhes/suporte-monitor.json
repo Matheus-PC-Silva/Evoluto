@@ -1,0 +1,47 @@
+{
+  "id": "suporte-monitor",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "O ajuste de ergonomia com maior efeito por real gasto para quem trabalha em computador.",
+  "beneficio": "A tela vai para a altura dos olhos, o pescoço deixa de ir para frente e a mesa fica livre.",
+  "paraQuem": [
+    "Quem trabalha horas em frente ao monitor",
+    "Quem tem mesa pequena"
+  ],
+  "naoParaQuem": [
+    "Quem usa só notebook sem monitor externo"
+  ],
+  "pros": [
+    "Barato",
+    "Ajuste de altura, ângulo e distância",
+    "Libera espaço na mesa"
+  ],
+  "contras": [
+    "Exige mesa firme para fixar",
+    "Confira se o monitor tem furação VESA"
+  ],
+  "comoEscolher": [
+    "Confira o padrão VESA (75x75 ou 100x100) do monitor",
+    "Respeite o peso máximo suportado",
+    "Topo da tela na altura dos olhos"
+  ],
+  "exemplos": [
+    "ELG",
+    "Multivisão",
+    "Brasforma"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/suporte-articulado-monitor",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=suporte+articulado+monitor",
+      "afiliado": false
+    }
+  ]
+}

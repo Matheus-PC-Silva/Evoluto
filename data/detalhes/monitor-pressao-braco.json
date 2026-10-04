@@ -1,0 +1,54 @@
+{
+  "id": "monitor-pressao-braco",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "O aparelho de saúde com melhor custo-benefício para a maioria das casas, desde que seja de braço e validado clinicamente.",
+  "beneficio": "Medidas em casa, no mesmo horário, viram um histórico confiável para levar à consulta, sem o nervosismo do consultório.",
+  "paraQuem": [
+    "Quem tem pressão alta na família",
+    "Quem já acompanha a pressão com um médico",
+    "Quem cuida de pais ou avós"
+  ],
+  "naoParaQuem": [
+    "Quem quer só uma leitura de curiosidade de vez em quando"
+  ],
+  "pros": [
+    "Barato e simples de usar",
+    "Guarda as últimas medidas na memória",
+    "Modelos de braço são mais confiáveis que os de pulso"
+  ],
+  "contras": [
+    "Braçadeira do tamanho errado distorce o resultado",
+    "Modelos sem validação clínica podem errar bastante"
+  ],
+  "comoEscolher": [
+    "Prefira modelo de braço, não de pulso",
+    "Confira se o modelo aparece em listas de validação clínica",
+    "Meça seu braço e escolha a braçadeira do tamanho certo"
+  ],
+  "exemplos": [
+    "Omron (linha de braço)",
+    "G-Tech",
+    "Multilaser Saúde"
+  ],
+  "evidencias": [
+    {
+      "texto": "Existem listas públicas de aparelhos de pressão validados por protocolos clínicos, úteis para conferir um modelo antes de comprar.",
+      "fonte": "Validate BP (lista de aparelhos validados)",
+      "url": "https://www.validatebp.org/"
+    }
+  ],
+  "avisoSaude": "Este aparelho ajuda a monitorar e acompanhar tendências. Ele não substitui consulta nem exame médico. Na dúvida, procure um profissional de saúde.",
+  "lojas": [
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=medidor+pressao+braco",
+      "afiliado": false
+    },
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/medidor-pressao-braco",
+      "afiliado": false
+    }
+  ]
+}

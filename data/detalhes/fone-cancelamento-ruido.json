@@ -1,0 +1,47 @@
+{
+  "id": "fone-cancelamento-ruido",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Para quem precisa de foco em ambiente barulhento, é o equipamento de produtividade com retorno mais imediato.",
+  "beneficio": "O ruído de fundo some com um toque, e o cansaço de ficar horas em ambiente barulhento diminui.",
+  "paraQuem": [
+    "Quem trabalha em casa com barulho",
+    "Quem viaja de ônibus ou avião"
+  ],
+  "naoParaQuem": [
+    "Quem precisa ouvir o ambiente por segurança, como ciclistas na rua"
+  ],
+  "pros": [
+    "Cancelamento ativo de ruído",
+    "Bom microfone para reuniões em vários modelos",
+    "Bateria longa"
+  ],
+  "contras": [
+    "Modelos bons são caros",
+    "Over-ear esquenta em dias quentes"
+  ],
+  "comoEscolher": [
+    "Prefira modelos com modo ambiente",
+    "Confira conforto em avaliações de uso prolongado",
+    "Veja a qualidade do microfone se for usar em reuniões"
+  ],
+  "exemplos": [
+    "Sony WH",
+    "JBL Tune",
+    "Soundcore"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=fone+cancelamento+de+ruido",
+      "afiliado": false
+    },
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/fone-cancelamento-ruido",
+      "afiliado": false
+    }
+  ]
+}

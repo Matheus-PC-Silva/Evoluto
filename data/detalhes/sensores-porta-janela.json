@@ -1,0 +1,47 @@
+{
+  "id": "sensores-porta-janela",
+  "tipoAnalise": "pesquisa",
+  "atualizadoEm": "2026-10-04",
+  "veredito": "Um alarme básico e barato, sem mensalidade, que você mesmo instala em minutos.",
+  "beneficio": "O celular avisa quando uma porta ou janela abre, e você também descobre se esqueceu algo aberto ao sair.",
+  "paraQuem": [
+    "Quem quer um alarme simples",
+    "Quem já usa um assistente ou hub de casa"
+  ],
+  "naoParaQuem": [
+    "Quem precisa de monitoramento profissional 24 horas"
+  ],
+  "pros": [
+    "Instalação com fita adesiva",
+    "Bateria dura meses",
+    "Pode acionar luzes e sirene em automações"
+  ],
+  "contras": [
+    "Muitos modelos precisam de hub",
+    "Não chama a polícia nem uma central"
+  ],
+  "comoEscolher": [
+    "Confira se precisa de hub Zigbee ou funciona em Wi-Fi",
+    "Veja se o kit inclui sirene",
+    "Prefira marcas com app em português"
+  ],
+  "exemplos": [
+    "Positivo Casa Inteligente",
+    "Aqara",
+    "Intelbras"
+  ],
+  "evidencias": [],
+  "avisoSaude": null,
+  "lojas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://lista.mercadolivre.com.br/sensor-porta-janela-wifi",
+      "afiliado": false
+    },
+    {
+      "nome": "Amazon",
+      "url": "https://www.amazon.com.br/s?k=sensor+porta+janela+inteligente",
+      "afiliado": false
+    }
+  ]
+}
