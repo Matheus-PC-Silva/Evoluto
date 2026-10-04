@@ -2,14 +2,54 @@
   "versao": 1,
   "atualizadoEm": "2026-10-04",
   "eixos": [
-    { "id": "saude", "nome": "Saúde", "titulo": "Saúde evoluta", "icone": "heart-pulse" },
-    { "id": "sono", "nome": "Sono", "titulo": "Sono evoluto", "icone": "moon-stars" },
-    { "id": "casa", "nome": "Casa", "titulo": "Casa evoluta", "icone": "house" },
-    { "id": "seguranca", "nome": "Segurança", "titulo": "Segurança evoluta", "icone": "shield-check" },
-    { "id": "privacidade", "nome": "Privacidade", "titulo": "Privacidade evoluta", "icone": "fingerprint" },
-    { "id": "cozinha", "nome": "Cozinha", "titulo": "Cozinha evoluta", "icone": "cup-hot" },
-    { "id": "energia", "nome": "Energia", "titulo": "Energia evoluta", "icone": "lightning-charge" },
-    { "id": "trabalho", "nome": "Trabalho", "titulo": "Trabalho evoluto", "icone": "laptop" }
+    {
+      "id": "saude",
+      "nome": "Saúde",
+      "titulo": "Saúde evoluta",
+      "icone": "heart-pulse"
+    },
+    {
+      "id": "sono",
+      "nome": "Sono",
+      "titulo": "Sono evoluto",
+      "icone": "moon-stars"
+    },
+    {
+      "id": "casa",
+      "nome": "Casa",
+      "titulo": "Casa evoluta",
+      "icone": "house"
+    },
+    {
+      "id": "seguranca",
+      "nome": "Segurança",
+      "titulo": "Segurança evoluta",
+      "icone": "shield-check"
+    },
+    {
+      "id": "privacidade",
+      "nome": "Privacidade",
+      "titulo": "Privacidade evoluta",
+      "icone": "fingerprint"
+    },
+    {
+      "id": "cozinha",
+      "nome": "Cozinha",
+      "titulo": "Cozinha evoluta",
+      "icone": "cup-hot"
+    },
+    {
+      "id": "energia",
+      "nome": "Energia",
+      "titulo": "Energia evoluta",
+      "icone": "lightning-charge"
+    },
+    {
+      "id": "trabalho",
+      "nome": "Trabalho",
+      "titulo": "Trabalho evoluto",
+      "icone": "laptop"
+    }
   ],
   "itens": [
     {
@@ -17,7 +57,14 @@
       "titulo": "Monitor de pressão de braço validado",
       "categoria": "saude",
       "resumo": "Medir em casa, no mesmo horário, gera um histórico que ajuda muito na conversa com o médico.",
-      "imagem": { "src": "img/produtos/monitor-pressao-braco.webp", "alt": "Pessoa medindo a pressão com um aparelho de braço" },
+      "imagem": {
+        "src": "img/produtos/monitor-pressao-braco.webp",
+        "alt": "Aparelho de pressão com braçadeira e estetoscópio",
+        "credito": {
+          "autor": "Marcelo Leal",
+          "url": "https://unsplash.com/photos/oe8lel1znuo"
+        }
+      },
       "primeiroPasso": true,
       "faixaPreco": 1
     },
@@ -26,7 +73,14 @@
       "titulo": "Pulseira fitness de entrada",
       "categoria": "saude",
       "resumo": "Passos, sono e frequência cardíaca no pulso por pouco dinheiro, com bateria que dura dias.",
-      "imagem": { "src": "img/produtos/pulseira-fitness.webp", "alt": "Pulseira fitness no pulso de uma pessoa" },
+      "imagem": {
+        "src": "img/produtos/pulseira-fitness.webp",
+        "alt": "Pulseira fitness preta na caixa",
+        "credito": {
+          "autor": "FitNish Media",
+          "url": "https://unsplash.com/photos/q8Emkm9ooig"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 1
     },
@@ -35,7 +89,14 @@
       "titulo": "Smartwatch com ECG e alerta de ritmo",
       "categoria": "saude",
       "resumo": "Avisa quando o ritmo do coração parece irregular e grava um eletrocardiograma de uma derivação.",
-      "imagem": { "src": "img/produtos/smartwatch-ecg.webp", "alt": "Smartwatch no pulso mostrando dados de frequência cardíaca" },
+      "imagem": {
+        "src": "img/produtos/smartwatch-ecg.webp",
+        "alt": "Smartwatch no pulso de uma pessoa",
+        "credito": {
+          "autor": "Ivett M",
+          "url": "https://unsplash.com/photos/ev8AhtPgamI"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 3
     },
@@ -44,7 +105,14 @@
       "titulo": "Kit de lâmpadas circadianas",
       "categoria": "sono",
       "resumo": "Luz quente à noite, fria de manhã: o relógio do corpo agradece.",
-      "imagem": { "src": "img/produtos/lampadas-circadianas.webp", "alt": "Quarto iluminado por luz âmbar suave ao anoitecer" },
+      "imagem": {
+        "src": "img/produtos/lampadas-circadianas.webp",
+        "alt": "Quarto iluminado por luz quente ao entardecer, com cama e planta",
+        "credito": {
+          "autor": "Archee Lal",
+          "url": "https://unsplash.com/photos/hkCXcR2mcds"
+        }
+      },
       "primeiroPasso": true,
       "faixaPreco": 1
     },
@@ -53,7 +121,14 @@
       "titulo": "Controle infravermelho universal Wi-Fi",
       "categoria": "sono",
       "resumo": "Liga o ar-condicionado antes de você deitar e desliga de madrugada, sem levantar da cama.",
-      "imagem": { "src": "img/produtos/controle-ir-universal.webp", "alt": "Ar-condicionado na parede de um quarto" },
+      "imagem": {
+        "src": "img/produtos/controle-ir-universal.webp",
+        "alt": "Unidade externa de ar-condicionado em uma parede antiga",
+        "credito": {
+          "autor": "Vladislav Nikonov",
+          "url": "https://unsplash.com/photos/JBw9IlbHhVY"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 1
     },
@@ -62,7 +137,14 @@
       "titulo": "Anel inteligente de sono",
       "categoria": "sono",
       "resumo": "Acompanha sono, temperatura e recuperação sem tela no pulso e sem luz acendendo à noite.",
-      "imagem": { "src": "img/produtos/anel-inteligente.webp", "alt": "Anel inteligente na mão de uma pessoa" },
+      "imagem": {
+        "src": "img/produtos/anel-inteligente.webp",
+        "alt": "Dedos segurando um anel inteligente preto",
+        "credito": {
+          "autor": "Andrey Matveev",
+          "url": "https://unsplash.com/photos/VUmPbOXmUoQ"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 3
     },
@@ -71,7 +153,14 @@
       "titulo": "Interruptor inteligente Wi-Fi",
       "categoria": "casa",
       "resumo": "Troca o interruptor comum e passa a controlar a luz pelo celular, por voz ou por horário.",
-      "imagem": { "src": "img/produtos/interruptor-inteligente.webp", "alt": "Mão tocando um interruptor de parede" },
+      "imagem": {
+        "src": "img/produtos/interruptor-inteligente.webp",
+        "alt": "Interruptor de luz duplo em uma parede branca",
+        "credito": {
+          "autor": "Jaye Haych",
+          "url": "https://unsplash.com/photos/bPOEB3sy4As"
+        }
+      },
       "primeiroPasso": true,
       "faixaPreco": 1
     },
@@ -80,7 +169,14 @@
       "titulo": "Assistente de voz com hub de casa",
       "categoria": "casa",
       "resumo": "A central da casa conectada: rotinas, lembretes e aparelhos comandados pela voz.",
-      "imagem": { "src": "img/produtos/assistente-voz.webp", "alt": "Caixa de som inteligente sobre um móvel" },
+      "imagem": {
+        "src": "img/produtos/assistente-voz.webp",
+        "alt": "Caixa de som inteligente Echo Dot preta",
+        "credito": {
+          "autor": "Lazar Gugleta",
+          "url": "https://unsplash.com/photos/Ub4CggGYf2o"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 2
     },
@@ -89,7 +185,14 @@
       "titulo": "Robô aspirador com LiDAR e mop",
       "categoria": "casa",
       "resumo": "Chão limpo sem ocupar o seu fim de semana. O laser mapeia a casa e evita o robô perdido.",
-      "imagem": { "src": "img/produtos/robo-aspirador-lidar.webp", "alt": "Robô aspirador limpando o piso de uma sala" },
+      "imagem": {
+        "src": "img/produtos/robo-aspirador-lidar.webp",
+        "alt": "Robô aspirador preto sobre piso de madeira",
+        "credito": {
+          "autor": "Onur Binay",
+          "url": "https://unsplash.com/photos/uhJgh4FHi6I"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 3
     },
@@ -98,7 +201,14 @@
       "titulo": "Câmera Wi-Fi com detecção de pessoas",
       "categoria": "seguranca",
       "resumo": "Avisa no celular quando aparece uma pessoa, e não a cada folha que se mexe.",
-      "imagem": { "src": "img/produtos/camera-wifi-ia.webp", "alt": "Câmera de segurança instalada na parede" },
+      "imagem": {
+        "src": "img/produtos/camera-wifi-ia.webp",
+        "alt": "Duas câmeras de segurança presas a uma parede",
+        "credito": {
+          "autor": "Scott Webb",
+          "url": "https://unsplash.com/photos/yekGLpc3vro"
+        }
+      },
       "primeiroPasso": true,
       "faixaPreco": 1
     },
@@ -107,7 +217,14 @@
       "titulo": "Kit de sensores de porta e janela",
       "categoria": "seguranca",
       "resumo": "Um alarme básico sem mensalidade: avisa no celular quando uma porta ou janela abre.",
-      "imagem": { "src": "img/produtos/sensores-porta-janela.webp", "alt": "Porta de entrada de uma casa" },
+      "imagem": {
+        "src": "img/produtos/sensores-porta-janela.webp",
+        "alt": "Entrada de uma casa com porta de madeira e colunas verdes",
+        "credito": {
+          "autor": "Ashwini Chaudhary (Monty)",
+          "url": "https://unsplash.com/photos/capxeZuSgz4"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 1
     },
@@ -116,7 +233,14 @@
       "titulo": "Fechadura digital com biometria",
       "categoria": "seguranca",
       "resumo": "Fim das chaves: entra com o dedo ou com senha, e libera acesso temporário para quem precisar.",
-      "imagem": { "src": "img/produtos/fechadura-digital.webp", "alt": "Fechadura digital com teclado em uma porta" },
+      "imagem": {
+        "src": "img/produtos/fechadura-digital.webp",
+        "alt": "Molho de chaves pendurado na fechadura de uma porta de madeira",
+        "credito": {
+          "autor": "Katja Ano",
+          "url": "https://unsplash.com/photos/vFfF9lt3yJ8"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 2
     },
@@ -125,7 +249,14 @@
       "titulo": "Gerenciador de senhas",
       "categoria": "privacidade",
       "resumo": "Uma senha forte e diferente para cada site, sem precisar decorar nenhuma delas.",
-      "imagem": { "src": "img/produtos/gerenciador-senhas.webp", "alt": "Tela de login com campo de senha em um notebook" },
+      "imagem": {
+        "src": "img/produtos/gerenciador-senhas.webp",
+        "alt": "Cadeado sobre um notebook com rastros de luz",
+        "credito": {
+          "autor": "FlyD",
+          "url": "https://unsplash.com/photos/C5pXRFEjq3w"
+        }
+      },
       "primeiroPasso": true,
       "faixaPreco": 1
     },
@@ -134,7 +265,14 @@
       "titulo": "Chave de segurança FIDO2",
       "categoria": "privacidade",
       "resumo": "Uma chave física que protege suas contas mesmo quando a senha vaza.",
-      "imagem": { "src": "img/produtos/chave-seguranca-fido2.webp", "alt": "Chave de segurança USB conectada a um notebook" },
+      "imagem": {
+        "src": "img/produtos/chave-seguranca-fido2.webp",
+        "alt": "Cadeado e chaves sobre um teclado de computador",
+        "credito": {
+          "autor": "Sasun Bughdaryan",
+          "url": "https://unsplash.com/photos/cX8kNl8X0Ys"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 2
     },
@@ -143,7 +281,14 @@
       "titulo": "Roteador mesh Wi-Fi 6",
       "categoria": "privacidade",
       "resumo": "Wi-Fi forte em todos os cômodos, para câmeras, fechaduras e videochamadas não caírem.",
-      "imagem": { "src": "img/produtos/roteador-mesh.webp", "alt": "Roteador Wi-Fi sobre uma estante" },
+      "imagem": {
+        "src": "img/produtos/roteador-mesh.webp",
+        "alt": "Ponto de roteador Wi-Fi mesh branco e redondo",
+        "credito": {
+          "autor": "Andres Urena",
+          "url": "https://unsplash.com/photos/YoM7sOGo4sU"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 2
     },
@@ -152,7 +297,14 @@
       "titulo": "Airfryer",
       "categoria": "cozinha",
       "resumo": "Comida crocante com pouco óleo e pouca louça, pronta enquanto você faz outra coisa.",
-      "imagem": { "src": "img/produtos/airfryer.webp", "alt": "Airfryer em uma bancada de cozinha" },
+      "imagem": {
+        "src": "img/produtos/airfryer.webp",
+        "alt": "Porção de batatas fritas douradas e crocantes",
+        "credito": {
+          "autor": "Richard Bell",
+          "url": "https://unsplash.com/photos/01Cym9NFY0s"
+        }
+      },
       "primeiroPasso": true,
       "faixaPreco": 2
     },
@@ -161,7 +313,14 @@
       "titulo": "Panela elétrica multicooker",
       "categoria": "cozinha",
       "resumo": "Feijão, arroz e marmitas da semana programados, sem vigiar o fogão.",
-      "imagem": { "src": "img/produtos/multicooker.webp", "alt": "Panela com comida caseira cozinhando" },
+      "imagem": {
+        "src": "img/produtos/multicooker.webp",
+        "alt": "Chaleira com água fervendo sobre o fogão",
+        "credito": {
+          "autor": "Abdallah Arafa",
+          "url": "https://unsplash.com/photos/sat_YDATN_4"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 2
     },
@@ -170,7 +329,14 @@
       "titulo": "Purificador de água classe A",
       "categoria": "cozinha",
       "resumo": "Água gelada e filtrada na torneira, sem carregar galão. Exija o selo INMETRO.",
-      "imagem": { "src": "img/produtos/purificador-agua.webp", "alt": "Copo sendo enchido com água" },
+      "imagem": {
+        "src": "img/produtos/purificador-agua.webp",
+        "alt": "Copo de água sobre a mesa com uma rodela de laranja",
+        "credito": {
+          "autor": "Fiona Murray-deGraaff",
+          "url": "https://unsplash.com/photos/oS1RRGvQKHI"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 2
     },
@@ -179,7 +345,14 @@
       "titulo": "Tomada inteligente com medição",
       "categoria": "energia",
       "resumo": "Descubra quanto cada aparelho gasta, inclusive desligado, e corte o desperdício.",
-      "imagem": { "src": "img/produtos/tomada-inteligente.webp", "alt": "Plugue conectado a uma tomada" },
+      "imagem": {
+        "src": "img/produtos/tomada-inteligente.webp",
+        "alt": "Plugue branco conectado a uma tomada",
+        "credito": {
+          "autor": "Mitchell Luo",
+          "url": "https://unsplash.com/photos/xzSVKPPfIHo"
+        }
+      },
       "primeiroPasso": true,
       "faixaPreco": 1
     },
@@ -188,7 +361,14 @@
       "titulo": "Ar-condicionado inverter",
       "categoria": "energia",
       "resumo": "O maior vilão da conta de luz, domado: mantém a temperatura sem liga-desliga constante.",
-      "imagem": { "src": "img/produtos/ar-condicionado-inverter.webp", "alt": "Aparelho de ar-condicionado split na parede" },
+      "imagem": {
+        "src": "img/produtos/ar-condicionado-inverter.webp",
+        "alt": "Unidades externas de ar-condicionado em uma parede branca",
+        "credito": {
+          "autor": "Kevin Woblick",
+          "url": "https://unsplash.com/photos/JkHSdaYRiUI"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 3
     },
@@ -197,7 +377,14 @@
       "titulo": "Estação de energia portátil",
       "categoria": "energia",
       "resumo": "Uma bateria grande que mantém internet, geladeira pequena e celulares funcionando no apagão.",
-      "imagem": { "src": "img/produtos/estacao-energia.webp", "alt": "Bateria portátil carregando aparelhos ao ar livre" },
+      "imagem": {
+        "src": "img/produtos/estacao-energia.webp",
+        "alt": "Pessoas acampando ao lado de um motorhome com bateria portátil e painel solar",
+        "credito": {
+          "autor": "Jackery Power Station",
+          "url": "https://unsplash.com/photos/OGKaLGt1VYY"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 3
     },
@@ -206,7 +393,14 @@
       "titulo": "Suporte articulado de monitor",
       "categoria": "trabalho",
       "resumo": "Tela na altura dos olhos e mesa livre: o ajuste mais barato da ergonomia.",
-      "imagem": { "src": "img/produtos/suporte-monitor.webp", "alt": "Mesa de trabalho com monitor elevado" },
+      "imagem": {
+        "src": "img/produtos/suporte-monitor.webp",
+        "alt": "Monitor ultrawide sobre uma mesa de home office",
+        "credito": {
+          "autor": "Clark Gu",
+          "url": "https://unsplash.com/photos/9rznoW59E-4"
+        }
+      },
       "primeiroPasso": true,
       "faixaPreco": 1
     },
@@ -215,7 +409,14 @@
       "titulo": "Fone com cancelamento de ruído",
       "categoria": "trabalho",
       "resumo": "Silêncio sob demanda para focar em casa barulhenta, no ônibus ou no avião.",
-      "imagem": { "src": "img/produtos/fone-cancelamento-ruido.webp", "alt": "Fone de ouvido sobre uma mesa" },
+      "imagem": {
+        "src": "img/produtos/fone-cancelamento-ruido.webp",
+        "alt": "Fone de ouvido bege sobre uma superfície clara",
+        "credito": {
+          "autor": "Creatopy",
+          "url": "https://unsplash.com/photos/k2ze-Q4qazc"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 2
     },
@@ -224,7 +425,14 @@
       "titulo": "Mesa com regulagem elétrica de altura",
       "categoria": "trabalho",
       "resumo": "Alterne entre sentado e em pé ao longo do dia apertando um botão.",
-      "imagem": { "src": "img/produtos/mesa-regulavel.webp", "alt": "Mesa de trabalho regulada na altura para uso em pé" },
+      "imagem": {
+        "src": "img/produtos/mesa-regulavel.webp",
+        "alt": "Mesa de trabalho de madeira com monitor, teclado e caixas de som",
+        "credito": {
+          "autor": "Arthur Lambillotte",
+          "url": "https://unsplash.com/photos/sopDgxKFMj0"
+        }
+      },
       "primeiroPasso": false,
       "faixaPreco": 3
     }
