@@ -61,6 +61,7 @@ section { scroll-margin-top: 96px; }
 .tagline { font-size: 1.25rem; font-weight: 700; color: var(--azul); }
 .hero[data-periodo="tarde"] .tagline, .hero[data-periodo="noite"] .tagline { color: var(--ambar); }
 .simbolo-hero { width: min(300px, 60vw); height: auto; }
+@media (max-width: 991.98px) { .simbolo-hero { width: 140px; } }
 .simbolo-intersecao { animation: acender 1.6s ease-out .3s 1 both; }
 @keyframes acender { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .simbolo-intersecao { animation: none; } }
