@@ -14,7 +14,7 @@ const RECUPERAVEIS = ['rede', 'tempo', 'servidor'];
 const api = criarApi({ simulador: criarSimulador(location.search) }); // ACAD-04
 const estado = {
   itens: [], eixos: [], texto: '', eixo: '', catalogoCarregado: false,
-  controleDetalhe: null, botaoOrigem: null, modalCriouHistorico: false, modalAberto: false, modalAbrindo: false,
+  controleDetalhe: null, botaoOrigem: null, modalCriouHistorico: false, hashCriado: '', modalAberto: false, modalAbrindo: false,
 };
 
 const $ = (seletor) => document.querySelector(seletor);
@@ -33,7 +33,8 @@ const eixoPorId = (id) => estado.eixos.find((e) => e.id === id);
 
 // ---------- Catálogo ----------
 
-async function carregarCatalogo() {
+// focarResultado: depois de "Tentar novamente", o botão clicado some; o foco vai para o primeiro card.
+async function carregarCatalogo({ focarResultado = false } = {}) {
   grade.setAttribute('aria-busy', 'true');
   grade.replaceChildren(...criarEsqueletos(6));
   avisoCatalogo.replaceChildren();
@@ -51,6 +52,7 @@ async function carregarCatalogo() {
     campoBusca.value = estado.texto;
     campoEixo.value = estado.eixo;
     renderizarCatalogo();
+    if (focarResultado) (grade.querySelector('[data-produto]') ?? campoBusca).focus();
     if (daUrl.produto !== null) abrirDetalhe(daUrl.produto, { veioDaUrl: true });
   } catch (erro) {
     grade.replaceChildren();
@@ -61,7 +63,7 @@ async function carregarCatalogo() {
       titulo: 'Não foi possível carregar o catálogo.',
       mensagem: erro.message,
       detalhe: erro.detalhe,
-      acao: { texto: 'Tentar novamente', aoClicar: carregarCatalogo },
+      acao: { texto: 'Tentar novamente', aoClicar: () => carregarCatalogo({ focarResultado: true }) },
     }));
   }
 }
@@ -124,11 +126,13 @@ grade.addEventListener('click', (evento) => {
 // ---------- Detalhes (nova requisição a cada abertura) ----------
 
 function abrirDetalhe(id, { botao = null, veioDaUrl = false } = {}) {
-  estado.botaoOrigem = botao;
+  // Sem botão de origem (link direto ou navegação), o foco volta ao botão do produto no catálogo ao fechar.
+  estado.botaoOrigem = botao ?? [...grade.querySelectorAll('[data-produto]')].find((b) => b.dataset.produto === id) ?? null;
   const hashDoProduto = `#produto-${id}`;
   if (!veioDaUrl && location.hash !== hashDoProduto) {
     history.pushState({ produto: id }, '', `${location.pathname}${location.search}${hashDoProduto}`);
     estado.modalCriouHistorico = true;
+    estado.hashCriado = hashDoProduto;
   }
   if (!estado.modalAberto) {
     estado.modalAberto = true;
@@ -137,6 +141,7 @@ function abrirDetalhe(id, { botao = null, veioDaUrl = false } = {}) {
   }
 
   if (!validarId(id, estado.itens)) {
+    estado.controleDetalhe?.abort(); // uma análise ainda carregando não pode aparecer aqui
     tituloDetalhe.textContent = 'Produto não encontrado';
     metaDetalhe.replaceChildren();
     corpoDetalhe.replaceChildren(criarAviso({
@@ -197,8 +202,11 @@ elementoModal.addEventListener('shown.bs.modal', () => { estado.modalAbrindo = f
 elementoModal.addEventListener('hidden.bs.modal', () => {
   estado.modalAberto = false;
   estado.controleDetalhe?.abort();
-  if (estado.modalCriouHistorico) {
-    estado.modalCriouHistorico = false;
+  // Só volta no histórico se a entrada atual for a que o modal criou; se o endereço mudou
+  // depois (outro produto digitado na URL), voltar reabriria o produto anterior.
+  const voltar = estado.modalCriouHistorico && location.hash === estado.hashCriado;
+  estado.modalCriouHistorico = false;
+  if (voltar) {
     history.back(); // o botão Voltar e o X têm o mesmo efeito
   } else if (location.hash.startsWith('#produto-')) {
     history.replaceState(history.state, '', `${location.pathname}${location.search}`);
